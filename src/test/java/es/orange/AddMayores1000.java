@@ -16,5 +16,10 @@ public class AddMayores1000 {
 	public void suma1001() {
 		assertTrue(App.add("1,1001") == 1);
 	}
+	
+	@Test
+	public void suma10001() {
+		assertTrue(App.add("1,10001") == 1);
+	}
 
 }
