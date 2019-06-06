@@ -21,5 +21,10 @@ public class AddMayores1000 {
 	public void suma10001() {
 		assertTrue(App.add("1,10001") == 1);
 	}
+	
+	@Test
+	public void suma2000() {
+		assertTrue(App.add("1,2000") == 1);
+	}
 
 }
