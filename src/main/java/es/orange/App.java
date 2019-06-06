@@ -10,7 +10,7 @@ public class App {
 	}
 
 	public static int add(String nums) {
-		//sahdjksahfdkj
+		
 		String[] nums_arr = nums.split(",");
 		int suma = 0;
 		for (String unNum : nums_arr) {
